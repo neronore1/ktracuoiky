@@ -1,0 +1,16 @@
+table{
+    width: 600px;
+    margin-left: 90px;  
+    padding: 0;
+}
+thead{
+    width: 600px;
+    color: white;
+    background-color: black;
+}
+tbody td:first-of-type{
+    text-align: left;
+}
+tbody:not(td:first-of-type){
+    text-align: center;
+}
